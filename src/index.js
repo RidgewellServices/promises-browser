@@ -1,8 +1,8 @@
-import hello from './hello.js';
+import Hello from './hello.js';
 
 var sayHello = function () {
-    return hello;
-};
+  return Hello.hello();
+}
 
 document.getElementById('msgBtn').addEventListener('click', function () {
     var message = sayHello();
